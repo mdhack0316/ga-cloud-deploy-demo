@@ -60,6 +60,8 @@ jobs:
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
+        env:
+          XYZ: "234234234"
         with:
           app-name: '2asdfgvb'
           slot-name: 'Production'
