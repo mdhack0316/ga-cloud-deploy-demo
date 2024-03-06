@@ -79,7 +79,7 @@ app.get('/ready',   function(req, res) {
     });
 })
 
-app.listen(process.env.PORT || 80, () => {
+app.listen(8080, () => {
     console.log("Server successfully running on port - " +3000);
 })
 
